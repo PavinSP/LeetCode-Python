@@ -1,4 +1,4 @@
-class Solution2:
+class Solution:
     def twoSum(self, nums, target):
         for i in range(len(nums)):
             for j in range(i+1, len(nums)):
@@ -7,7 +7,7 @@ class Solution2:
         return []
 
 def main():
-    solution = Solution2()
+    solution = Solution()
     nums = [2, 7, 11, 15]
     target = 9
     result = solution.twoSum(nums, target)
